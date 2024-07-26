@@ -10,29 +10,25 @@ import SwiftUI
 struct Tabbar1: View {
     var body: some View {
         ZStack {
-            Color(hex: "D8D8D8")
-                .edgesIgnoringSafeArea(.all)
             ZStack {
-                ZStack {
-                    HStack(spacing: 44) {
-                        Image("Home")
-                        Image("HizmetNoktaları")
-                        Image("TarifeBilgileri")
-                        Image("GirisYap")
-                    }
-                    .frame(width: 327, height: 36, alignment: .center)
+                HStack(spacing: 44) {
+                    Image("Home")
+                    Image("HizmetNoktaları")
+                    Image("TarifeBilgileri")
+                    Image("GirisYap")
                 }
-                .frame(width: 393, height: 96, alignment: .center)
-                .background(Color.white)
-                
-                .overlay(
-                    TopCornersBorder(cornerRadius: 10)
-                        .stroke(Color.black, lineWidth: 3)
-                        .frame(width: 395, height: 96)
-                )
-            }.cornerRadius(10, corners: [.topLeft, .topRight])
-        }
-    }
+                .frame(width: 327, height: 36, alignment: .center)
+            }
+            .frame(width: 393, height: 96, alignment: .center)
+            .background(Color.white)
+            
+            .overlay(
+                TopCornersBorder(cornerRadius: 10)
+                    .stroke(Color.black, lineWidth: 3)
+                    .frame(width: 395, height: 96)
+            )
+        }.cornerRadius(10, corners: [.topLeft, .topRight])
+    }    
 }
 
 struct TopCornersBorder: InsettableShape {

@@ -18,7 +18,7 @@ struct MenuButton: View {
                 .frame(width: 108, height: 108)
             
             VStack(alignment: .leading, spacing: 16) {
-                Image(systemName: iconName) // Dinamik ikon adı
+                Image(iconName) // Dinamik ikon adı
                     .resizable()
                     .frame(width: 24, height: 24)
                     .padding(.top, 16)
@@ -35,7 +35,7 @@ struct MenuButton: View {
 struct MenuButton_Previews: PreviewProvider {
     static var previews: some View {
         VStack {
-            MenuButton(iconName: "star", labelText: "Tarife\nBilgileri")
+            MenuButton(iconName: "TarifeBilgileri", labelText: "Tarife\nBilgileri")
         }
     }
 }
