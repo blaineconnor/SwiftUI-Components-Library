@@ -42,7 +42,7 @@ struct CustomCard: View {
             
             .padding(.top, 34)
             .padding(.leading, 22)
-        }
+        }.frame(width: 341,height: 353)
     }
 }
 
