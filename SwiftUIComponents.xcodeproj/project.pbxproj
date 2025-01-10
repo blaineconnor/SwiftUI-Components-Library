@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA02D1132D1ADFF100C05884 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02D1122D1ADFF100C05884 /* AppCoordinator.swift */; };
+		BADC6B182D13FE330047F513 /* PricePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC6B172D13FE2C0047F513 /* PricePicker.swift */; };
+		BADF027F2D30F10400289A3C /* Spiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF027E2D30F10400289A3C /* Spiral.swift */; };
 		F30011A92C16EA1D00BF00AA /* CustomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30011A82C16EA1D00BF00AA /* CustomCard.swift */; };
 		F30011AC2C16F4D000BF00AA /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30011AB2C16F4D000BF00AA /* Triangle.swift */; };
 		F30011AE2C171A0500BF00AA /* LogInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30011AD2C171A0500BF00AA /* LogInButton.swift */; };
@@ -48,6 +51,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA02D1122D1ADFF100C05884 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BADC6B172D13FE2C0047F513 /* PricePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricePicker.swift; sourceTree = "<group>"; };
+		BADF027E2D30F10400289A3C /* Spiral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spiral.swift; sourceTree = "<group>"; };
 		F30011A82C16EA1D00BF00AA /* CustomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCard.swift; sourceTree = "<group>"; };
 		F30011AB2C16F4D000BF00AA /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		F30011AD2C171A0500BF00AA /* LogInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButton.swift; sourceTree = "<group>"; };
@@ -101,6 +107,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA02D1112D1ADFEC00C05884 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				BA02D1122D1ADFF100C05884 /* AppCoordinator.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		BADC6B162D13FE180047F513 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				BADC6B172D13FE2C0047F513 /* PricePicker.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		BADF027D2D30F0F300289A3C /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				BADF027E2D30F10400289A3C /* Spiral.swift */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
 		F30011A62C16EA0800BF00AA /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +180,7 @@
 		F396FB9A2C16E70A00625F61 /* SwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				BA02D1112D1ADFEC00C05884 /* Test */,
 				F396FBAA2C16E72400625F61 /* Components */,
 				F30011AA2C16F4C400BF00AA /* Shapes */,
 				F396FBA92C16E71C00625F61 /* Extensions */,
@@ -183,6 +214,8 @@
 		F396FBAA2C16E72400625F61 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BADF027D2D30F0F300289A3C /* Backgrounds */,
+				BADC6B162D13FE180047F513 /* Pickers */,
 				F3B691E82C591D24003256C3 /* TextFields */,
 				F30011A62C16EA0800BF00AA /* Buttons */,
 				F30011A72C16EA1000BF00AA /* Cards */,
@@ -338,14 +371,17 @@
 				F396FB9E2C16E70A00625F61 /* ContentView.swift in Sources */,
 				F30011AE2C171A0500BF00AA /* LogInButton.swift in Sources */,
 				F3F82E862C5129A200681AE2 /* View+CornerRadius.swift in Sources */,
+				BADF027F2D30F10400289A3C /* Spiral.swift in Sources */,
 				F3B691EA2C591D37003256C3 /* CustomTextField1.swift in Sources */,
 				F30011A92C16EA1D00BF00AA /* CustomCard.swift in Sources */,
 				F3F82E812C510E5500681AE2 /* NamedButton.swift in Sources */,
 				F30011AC2C16F4D000BF00AA /* Triangle.swift in Sources */,
 				F396FB9C2C16E70A00625F61 /* SwiftUIComponentsApp.swift in Sources */,
+				BADC6B182D13FE330047F513 /* PricePicker.swift in Sources */,
 				F3B691E22C590B75003256C3 /* Circle.swift in Sources */,
 				F30011B02C173C5100BF00AA /* LongRectangleMenuButton.swift in Sources */,
 				F3B691EC2C591E9C003256C3 /* PlaceholderModifier.swift in Sources */,
+				BA02D1132D1ADFF100C05884 /* AppCoordinator.swift in Sources */,
 				F396FBAE2C16E7A300625F61 /* Color+Hex.swift in Sources */,
 				F3B691E72C591A53003256C3 /* CustomButton1.swift in Sources */,
 				F3F82E842C5122FB00681AE2 /* Tabbar1.swift in Sources */,
