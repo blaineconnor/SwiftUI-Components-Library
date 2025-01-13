@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUIComponentsApp: App {
+    @AppStorage("isLoading") var isLoading: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoadingTestView()
         }
     }
 }
